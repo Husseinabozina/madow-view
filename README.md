@@ -1,22 +1,104 @@
-# مدعو Madow — صفحة العرض
+<div align="center">
+  <img src="assets/madow-logo.png" alt="Madow / مدعو logo" width="88" />
+  <h1>مدعو · Madow</h1>
+  <p><strong>An Arabic-first event invitation experience</strong></p>
+  <p>Explore the app, browse invitation designs, and follow the invite creation journey.</p>
+  <p>
+    <a href="https://husseinabozina.github.io/madow-view/">Open the live portfolio</a>
+    ·
+    <a href="#screenshots">App screenshots</a>
+    ·
+    <a href="#invitation-designs">Invitation designs</a>
+  </p>
+  <p>
+    <img src="https://img.shields.io/badge/Flutter-Mobile%20app-02569B?logo=flutter&logoColor=white" alt="Flutter mobile app" />
+    <img src="https://img.shields.io/badge/Dart-language-0175C2?logo=dart&logoColor=white" alt="Dart" />
+    <img src="https://img.shields.io/badge/Arabic-RTL%20interface-176B57" alt="Arabic RTL interface" />
+    <img src="https://img.shields.io/badge/Status-Portfolio%20demo-C69A58" alt="Portfolio demo" />
+  </p>
+</div>
 
-صفحة portfolio عربية متجاوبة لتقديم تطبيق مدعو، مبنية كملفات ثابتة لتناسب GitHub Pages.
+---
 
-## النشر على GitHub Pages
+## About the project
 
-1. ارفع محتويات هذا المجلد إلى مستودع العرض.
-2. من إعدادات المستودع، افتح **Pages**.
-3. اختر النشر من الفرع الرئيسي (`main`) ومن المجلد الجذر (`/root`)، ثم احفظ.
-4. سيظهر رابط الموقع في صفحة Pages بعد اكتمال النشر.
+**Madow (مدعو)** is a mobile app concept for creating and sharing invitations for meaningful occasions. It brings the main choices into one guided experience: choose an occasion, find a design, review a package, and add the event details.
 
-## إضافة APK العرض
+This repository contains the **public portfolio website and project presentation**. The Flutter application is maintained separately. The portfolio is published with GitHub Pages and includes real app screens and invitation artwork.
 
-ضع نسخة Android الجاهزة للمشاركة بهذا الاسم:
+> **Project status:** This is a presentation/demo project. The screens and invitation designs shown here describe the current app experience; online services, payment processing, and backend behavior are not represented as production features.
 
-`downloads/madow-demo.apk`
+## What I built
 
-سيظهر زر التنزيل تلقائيًا في الموقع عندما يكون الملف موجودًا. لا تضع مفاتيح توقيع أو ملفات سرية في هذا المستودع. لا تضف APK debug كبيرًا إلى GitHub؛ استخدم APK مشاركة مناسبًا أو أرفقه كـGitHub Release.
+- Shaped a clear, multi-step invitation flow from occasion selection through package and template selection.
+- Created an Arabic-first interface with right-to-left layout and Arabic typography.
+- Designed and organized invitation examples for weddings, graduations, birthdays, and newborn celebrations.
+- Added dedicated app screens for the home page, occasion categories, template gallery, package selection, template preview, and order history.
+- Built a responsive portfolio page to present the app journey and artwork on desktop and mobile.
 
-## معاينة محلية
+## Product highlights
 
-افتح `index.html` مباشرة أو شغّل خادم ملفات ثابتة من هذا المجلد.
+| Area | What it offers |
+| --- | --- |
+| Occasion discovery | Browse wedding, graduation, birthday, and newborn invitation categories. |
+| Template gallery | Explore invitation designs and preview the selected template. |
+| Guided creation | Move through package, occasion, and template choices before entering invitation details. |
+| Arabic RTL | A right-to-left interface designed around Arabic content. |
+| Home experience | Promotional slider, featured invitation templates, and category entry points. |
+| Order history | A dedicated screen for reviewing invitation requests in the demo experience. |
+
+## Screenshots
+
+<div align="center" id="screenshots">
+  <table>
+    <tr>
+      <td align="center"><img src="assets/screenshots/home.png" alt="Madow home screen" width="180" /><br /><sub><strong>Home</strong><br />Promotions and featured designs</sub></td>
+      <td align="center"><img src="assets/screenshots/occasion-selection.png" alt="Occasion selection screen" width="180" /><br /><sub><strong>Choose an occasion</strong><br />Four event categories</sub></td>
+      <td align="center"><img src="assets/screenshots/templates-gallery.png" alt="Invitation templates gallery" width="180" /><br /><sub><strong>Browse templates</strong><br />A gallery of invitation designs</sub></td>
+    </tr>
+    <tr>
+      <td align="center"><img src="assets/screenshots/template-selection.png" alt="Invitation template selection screen" width="180" /><br /><sub><strong>Preview a design</strong><br />Review a template before continuing</sub></td>
+      <td align="center"><img src="assets/screenshots/package-selection.png" alt="Package selection screen" width="180" /><br /><sub><strong>Choose a package</strong><br />Review the displayed package options</sub></td>
+      <td align="center"><img src="assets/screenshots/orders-history.png" alt="Order history screen" width="180" /><br /><sub><strong>Order history</strong><br />A dedicated requests screen</sub></td>
+    </tr>
+  </table>
+</div>
+
+## Invitation designs
+
+<div align="center" id="invitation-designs">
+  <table>
+    <tr>
+      <td align="center"><img src="assets/invitations/laylat-al-omr.png" alt="Laylat Al Omr wedding invitation" width="145" /><br /><sub><strong>ليلة العمر</strong><br />Wedding</sub></td>
+      <td align="center"><img src="assets/invitations/waad-belfarah.png" alt="Waad Belfarah wedding invitation" width="145" /><br /><sub><strong>وعد بالفرح</strong><br />Wedding</sub></td>
+      <td align="center"><img src="assets/invitations/bidaya-mushriqa.png" alt="Bidaya Mushriqa graduation invitation" width="145" /><br /><sub><strong>بداية مشرقة</strong><br />Graduation</sub></td>
+      <td align="center"><img src="assets/invitations/aam-min-alsaada.png" alt="Aam Min Alsaada birthday invitation" width="145" /><br /><sub><strong>عام من السعادة</strong><br />Birthday</sub></td>
+      <td align="center"><img src="assets/invitations/najmatona-alsaghira.png" alt="Najmatona Alsaghira newborn invitation" width="145" /><br /><sub><strong>نجمتنا الصغيرة</strong><br />Newborn</sub></td>
+    </tr>
+  </table>
+</div>
+
+## Tech and delivery
+
+- **Mobile app:** Flutter · Dart
+- **Portfolio:** HTML · CSS · JavaScript
+- **Hosting:** GitHub Pages
+- **Localization and layout:** Arabic · RTL
+
+## Try the portfolio
+
+Visit the [live Madow portfolio](https://husseinabozina.github.io/madow-view/) to explore the app screens and invitation designs.
+
+An installable Android APK will be linked from the portfolio when a shareable build is added. No APK is included in this repository yet.
+
+## العربية
+
+**مدعو** تجربة تطبيق عربية لإنشاء دعوات المناسبات. يمر المستخدم باختيار المناسبة، ثم الباقة والقالب، وبعدها تفاصيل الدعوة.
+
+يتضمن المشروع واجهة عربية من اليمين إلى اليسار، وأقسامًا للزفاف والتخرج وأعياد الميلاد والمولود الجديد، ومعرضًا للقوالب، وشاشات لاختيار الباقة ومعاينة التصميم وسجل الطلبات. يحتوي هذا المستودع على موقع العرض العام؛ أما تطبيق Flutter فيُدار بشكل منفصل.
+
+> **حالة المشروع:** نسخة للعرض وتقديم تجربة التطبيق والتصاميم. لا يدّعي هذا المستودع وجود خدمات خلفية أو دفع إلكتروني جاهز للإنتاج. ملف APK سيُضاف إلى صفحة العرض عند توفر نسخة مشاركة.
+
+<div align="center">
+  <sub>Made with care for life's celebrations · صُمّم لكل فرحة حكاية</sub>
+</div>
