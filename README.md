@@ -47,22 +47,26 @@ This repository contains the **public portfolio website and project presentation
 | Home experience | Promotional slider, featured invitation templates, and category entry points. |
 | Order history | A dedicated screen for reviewing invitation requests in the demo experience. |
 
-## Screenshots
+## Store-style app screenshots
+
+Six polished portrait visuals prepared at **1080 × 1920 px (9:16)**. Each pairs an unchanged app screenshot with a consistent Madow frame, colors, and a short Arabic headline. Select an image to open the full-resolution file.
 
 <div align="center" id="screenshots">
   <table>
     <tr>
-      <td align="center"><img src="assets/screenshots/home.png" alt="Madow home screen" width="180" /><br /><sub><strong>Home</strong><br />Promotions and featured designs</sub></td>
-      <td align="center"><img src="assets/screenshots/occasion-selection.png" alt="Occasion selection screen" width="180" /><br /><sub><strong>Choose an occasion</strong><br />Four event categories</sub></td>
-      <td align="center"><img src="assets/screenshots/templates-gallery.png" alt="Invitation templates gallery" width="180" /><br /><sub><strong>Browse templates</strong><br />A gallery of invitation designs</sub></td>
+      <td align="center"><a href="assets/google-play/01-home.jpg"><img src="assets/google-play/01-home.jpg" alt="Madow home screen store artwork" width="180" /></a><br /><sub><strong>دعوتك في أجمل صورة</strong><br />Home</sub></td>
+      <td align="center"><a href="assets/google-play/02-occasions.jpg"><img src="assets/google-play/02-occasions.jpg" alt="Madow occasion selection store artwork" width="180" /></a><br /><sub><strong>كل مناسبة لها حكاية</strong><br />Choose an occasion</sub></td>
+      <td align="center"><a href="assets/google-play/03-templates.jpg"><img src="assets/google-play/03-templates.jpg" alt="Madow templates gallery store artwork" width="180" /></a><br /><sub><strong>اختار التصميم اللي يشبه فرحتك</strong><br />Browse templates</sub></td>
     </tr>
     <tr>
-      <td align="center"><img src="assets/screenshots/template-selection.png" alt="Invitation template selection screen" width="180" /><br /><sub><strong>Preview a design</strong><br />Review a template before continuing</sub></td>
-      <td align="center"><img src="assets/screenshots/package-selection.png" alt="Package selection screen" width="180" /><br /><sub><strong>Choose a package</strong><br />Review the displayed package options</sub></td>
-      <td align="center"><img src="assets/screenshots/orders-history.png" alt="Order history screen" width="180" /><br /><sub><strong>Order history</strong><br />A dedicated requests screen</sub></td>
+      <td align="center"><a href="assets/google-play/04-preview.jpg"><img src="assets/google-play/04-preview.jpg" alt="Madow invitation preview store artwork" width="180" /></a><br /><sub><strong>شوف دعوتك قبل ما تكمل</strong><br />Preview a design</sub></td>
+      <td align="center"><a href="assets/google-play/05-packages.jpg"><img src="assets/google-play/05-packages.jpg" alt="Madow packages screen store artwork" width="180" /></a><br /><sub><strong>اختار الباقة المناسبة</strong><br />Choose a package</sub></td>
+      <td align="center"><a href="assets/google-play/06-orders.jpg"><img src="assets/google-play/06-orders.jpg" alt="Madow order history store artwork" width="180" /></a><br /><sub><strong>طلباتك في مكان واحد</strong><br />Order history</sub></td>
     </tr>
   </table>
 </div>
+
+The unframed source captures are available in [`assets/screenshots/`](assets/screenshots/) as well.
 
 ## Invitation designs
 
