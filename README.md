@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="assets/madow-logo.png" alt="Madow / مدعو logo" width="88" />
+  <a href="https://husseinabozina.github.io/madow-view/">
+    <img src="assets/readme-cover.jpg" alt="مدعو: مناسبتك تستحق دعوة تليق بها — معاينة دعوة زفاف على الهاتف" width="1200" />
+  </a>
   <h1>مدعو · Madow</h1>
   <p><strong>An Arabic-first event invitation experience</strong></p>
   <p>Explore the app, browse invitation designs, and follow the invite creation journey.</p>
