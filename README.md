@@ -75,11 +75,11 @@ The unframed source captures are available in [`assets/screenshots/`](assets/scr
 <div align="center" id="invitation-designs">
   <table>
     <tr>
-      <td align="center"><img src="assets/invitations/laylat-al-omr.png" alt="Laylat Al Omr wedding invitation" width="145" /><br /><sub><strong>ليلة العمر</strong><br />Wedding</sub></td>
-      <td align="center"><img src="assets/invitations/waad-belfarah.png" alt="Waad Belfarah wedding invitation" width="145" /><br /><sub><strong>وعد بالفرح</strong><br />Wedding</sub></td>
-      <td align="center"><img src="assets/invitations/bidaya-mushriqa.png" alt="Bidaya Mushriqa graduation invitation" width="145" /><br /><sub><strong>بداية مشرقة</strong><br />Graduation</sub></td>
-      <td align="center"><img src="assets/invitations/aam-min-alsaada.png" alt="Aam Min Alsaada birthday invitation" width="145" /><br /><sub><strong>عام من السعادة</strong><br />Birthday</sub></td>
-      <td align="center"><img src="assets/invitations/najmatona-alsaghira.png" alt="Najmatona Alsaghira newborn invitation" width="145" /><br /><sub><strong>نجمتنا الصغيرة</strong><br />Newborn</sub></td>
+      <td align="center"><img src="assets/invitations/laylat-al-omr.webp" alt="Laylat Al Omr wedding invitation" width="145" /><br /><sub><strong>ليلة العمر</strong><br />Wedding</sub></td>
+      <td align="center"><img src="assets/invitations/waad-belfarah.webp" alt="Waad Belfarah wedding invitation" width="145" /><br /><sub><strong>وعد بالفرح</strong><br />Wedding</sub></td>
+      <td align="center"><img src="assets/invitations/bidaya-mushriqa.webp" alt="Bidaya Mushriqa graduation invitation" width="145" /><br /><sub><strong>بداية مشرقة</strong><br />Graduation</sub></td>
+      <td align="center"><img src="assets/invitations/aam-min-alsaada.webp" alt="Aam Min Alsaada birthday invitation" width="145" /><br /><sub><strong>عام من السعادة</strong><br />Birthday</sub></td>
+      <td align="center"><img src="assets/invitations/najmatona-alsaghira.webp" alt="Najmatona Alsaghira newborn invitation" width="145" /><br /><sub><strong>نجمتنا الصغيرة</strong><br />Newborn</sub></td>
     </tr>
   </table>
 </div>
