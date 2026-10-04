@@ -1,0 +1,80 @@
+name: Optimize portfolio media
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/optimize_portfolio_media.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  optimize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Optimize PNG media to WebP
+        run: |
+          python -m pip install --quiet pillow
+          python - <<'PY'
+          from pathlib import Path
+          from PIL import Image
+
+          groups = [
+              (Path("assets/screenshots"), 78),
+              (Path("assets/invitations"), 82),
+          ]
+
+          for folder, quality in groups:
+              for path in folder.glob("*.png"):
+                  image = Image.open(path).convert("RGB")
+                  target = path.with_suffix(".webp")
+                  image.save(target, "WEBP", quality=quality, method=6)
+
+          logo = Path("assets/madow-logo.png")
+          if logo.exists():
+              image = Image.open(logo).convert("RGBA")
+              image.save(logo.with_suffix(".webp"), "WEBP", quality=86, method=6)
+
+          replacements = {
+              "assets/madow-logo.png": "assets/madow-logo.webp",
+          }
+
+          for path in Path("assets/screenshots").glob("*.png"):
+              replacements[str(path)] = str(path.with_suffix(".webp"))
+          for path in Path("assets/invitations").glob("*.png"):
+              replacements[str(path)] = str(path.with_suffix(".webp"))
+
+          for text_file in [Path("index.html"), Path("README.md")]:
+              text = text_file.read_text(encoding="utf-8")
+              for old, new in replacements.items():
+                  text = text.replace(old, new)
+              text_file.write_text(text, encoding="utf-8")
+
+          for folder, _ in groups:
+              for path in folder.glob("*.png"):
+                  path.unlink()
+          if logo.exists():
+              logo.unlink()
+          PY
+
+      - name: Show optimized sizes
+        run: |
+          du -ah assets/screenshots assets/invitations assets/madow-logo.webp | sort -h | tail -30
+
+      - name: Commit optimized media
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html README.md assets
+          if git diff --cached --quiet; then
+            echo "No media changes"
+            exit 0
+          fi
+          git commit -m "perf: optimize portfolio images for faster loading"
+          git push
